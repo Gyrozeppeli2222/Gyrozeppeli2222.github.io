@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  background: #ad2cb8;
-  color: #222;
+  background: #3881e8;
+  color: #274a72;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -40,15 +40,59 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #28a550;
+  color: #1c5d70;
 }
 
 .content > p {
   margin: 0;
-  color: #46bd60;
+  color: #3e69a5;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   line-height: 1.4;
 }
 
+#interests {
+  margin-top: 32px;
+  width: 100%;
+}
+
+#interests h3 {
+  margin: 0 0 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #4ca2e3;
+}
+
+#interests ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+#interests li {
+  color: #;#0f6a81
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  background: #0f6a81;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+  cursor: default;
+}
+
+#interests li:hover {
+  background: #ffa60c;
+  color: #fff;
+  border-color: #e37609;
+  transform: translateY(-2px);
+}
